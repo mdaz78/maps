@@ -11,3 +11,6 @@ console.log(company);
 const mapDiv = document.getElementById("map") as HTMLElement;
 
 export const map = new Map(mapDiv);
+
+map.addMarker(user);
+map.addMarker(company);
